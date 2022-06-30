@@ -1,8 +1,7 @@
-name: Node.js Package
+name: Publish To Npm
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types: [closed]
  
 jobs:
   publish-npm:
