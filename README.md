@@ -14,3 +14,6 @@ npm i yana-cli -g
 - yana-cli create ：选择一个模板生成项目
 - yana-cli add ：添加一个模板
 - yana-cli delete ：删除一个模板
+
+## 4. 内置模板列表
+- vue3-project-template：vue3 + vite + vue-router + pinia + typescript
