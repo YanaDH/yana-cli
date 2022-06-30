@@ -1,9 +1,16 @@
-# YanaDu
+# yana-cli 使用指南
 
-#### 介绍
-自定义项目脚手架
+## 1. 脚手架介绍
+开发者使用yana-cli拉取项目模板，快速完成项目初始化
 
-#### 基础功能
-- 本地模板增加、删除、查看
-- 根据模板地址克隆远程项目模板
-- 替换模板中的package.json信息
+## 2. 全局安装
+```js
+npm i yana-cli -g
+```
+
+## 3. 命令行
+- yana-cli -V ：查看 yana-cli 版本
+- yana-cli list ：查看模板列表
+- yana-cli create ：选择一个模板生成项目
+- yana-cli add ：添加一个模板
+- yana-cli delete ：删除一个模板
