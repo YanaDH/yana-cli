@@ -1,6 +1,6 @@
 name: Publish To Npm
 on:
-  master:
+  pull_request:
     types: [closed]
 
 jobs:
