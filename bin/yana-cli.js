@@ -2,19 +2,19 @@
 const program = require('commander')
 const config = require('../package.json')
 
-program.version(config.version, "-V, --version")
+program.version(config.version, "-v, --version")
 
 // 定义使用方法
 program
     .command("create")
-    .description("创建一个模板项目")
+    .description("选择模板生成项目")
     .action( () =>{
         require("../lib/create")
     })
 
 program
     .command("list")
-    .description("列出当前可用模板项目")
+    .description("查看当前可用模板")
     .action(()=>{
         require('../lib/list')
     })

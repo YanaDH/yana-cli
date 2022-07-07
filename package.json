@@ -1,6 +1,6 @@
 {
   "name": "yana-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command line interface for frontend development",
   "bin": {
     "yana-cli": "bin/yana-cli.js"
